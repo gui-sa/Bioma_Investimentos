@@ -1,0 +1,19 @@
+.BigButton{
+    font-family : serif;
+}
+
+.BigButton button{
+    margin:0;
+    padding:1vh 3.5vh;
+    border: 1px solid #f33a7f;
+    border-radius: 5vh;
+    color : #fff;
+    background-color: #f93980;
+    font-size :2vh;
+    font-weight: 600;
+    letter-spacing: .2px;
+}
+
+.BigButton button:hover{
+    background-color: #be426d;
+}
