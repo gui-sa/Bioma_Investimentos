@@ -1,15 +1,23 @@
 import React from 'react'
 import style from './TextIcon.module.css'
 
-function TextIcon({ cor }) {
-    if (cor === "yellow") {
+const TextIcon = ({ cor }) => {
+
+    if (cor === "dark") {
         return(
             <div className={style.TextIcon}>
                 <p className={style.redbutton}>Testando</p>
             </div>
         );
     }
-    if (cor === "blue") {
+    if (cor === "pink") {
+        return(
+            <div className={style.TextIcon}>
+                <p className={style.bluebutton}>Testando</p>
+            </div>
+        );
+    };
+    if (cor === "green") {
         return(
             <div className={style.TextIcon}>
                 <p className={style.bluebutton}>Testando</p>

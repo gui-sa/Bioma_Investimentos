@@ -1,4 +1,4 @@
-import {CaretLeft, MapPin} from "phosphor-react";
+import { CaretLeft, MapPin } from "phosphor-react";
 import './App.css';
 import BigButton from './components/BigButton';
 import TextIcon from "./components/TextIcon";
@@ -16,19 +16,20 @@ function App() {
         </div>
         <main>
           <h1>Guilherme Salomao Agostini</h1>
-          <MapPin size={"2vh"} color="#9f9f9f"/>
-          <address>Uberlandia - MG</address>
+          <span className="text_icon">
+            <MapPin size={"2vh"} color="#9f9f9f" />
+            <address>Uberlandia, Minas Gerais</address>
+          </span>
           <p>Full Stack Developer</p>
         </main>
         <footer>
-          <BigButton text="Upgrade Now - Go Pro"/>
+          <BigButton text="Upgrade Now - Go Pro" />
         </footer>
       </header>
       <aside className='settings'>
         <h2>Settings</h2>
-        <TextIcon cor="yellow"/>
-        <TextIcon cor="blue"/>
-        <TextIcon/>
+        <TextIcon />
+
       </aside>
     </div>
   );
