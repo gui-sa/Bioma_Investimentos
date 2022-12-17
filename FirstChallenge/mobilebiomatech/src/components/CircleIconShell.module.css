@@ -1,0 +1,15 @@
+.CircleIconShell{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height:5vh;
+    width:5vh;
+    border-radius:50%;
+    background-color:#f93980;
+
+}
+
+

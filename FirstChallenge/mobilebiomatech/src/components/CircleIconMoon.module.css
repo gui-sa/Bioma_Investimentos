@@ -1,0 +1,16 @@
+.CircleIconMoon{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height:4vh;
+    width:4vh;
+    border-radius:50%;
+    background-color:#222423;
+    transform: rotate(30deg);
+
+}
+
+

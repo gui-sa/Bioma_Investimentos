@@ -1,8 +1,13 @@
-import { CaretLeft, MapPin } from "phosphor-react";
+import { CaretLeft, MapPin, Question, Info } from "phosphor-react";
 import './App.css';
 import BigButton from './components/BigButton';
-import TextIcon from "./components/TextIcon";
+import CircleIconMoon from "./components/CircleIconMoon";
+import CircleIconBell from "./components/CircleIconBell";
+import CircleIconLock from "./components/CircleIconLock";
+import CircleIconShell from "./components/CircleIconShell";
+import CircleIconUser from "./components/CircleIconUser";
 import React from 'react';
+import Switcher from "./components/Switcher";
 
 function App() {
   return (
@@ -28,7 +33,21 @@ function App() {
       </header>
       <aside className='settings'>
         <h2>Settings</h2>
-        <TextIcon />
+        <div>
+          <label className="switch">
+              <CircleIconMoon/>
+              <span>Dark Mode</span>
+              <div className="switcher"><Switcher /></div>
+              
+          </label>
+        </div>
+        
+        <CircleIconBell/>
+        <CircleIconLock/>
+        <CircleIconShell/>
+        <CircleIconUser/>
+        <Question size={"6.15vh"} color="#3cca9e" weight="fill" />
+        <Info size={"6.15vh"} color="#3cca9e" weight="fill" />
 
       </aside>
     </div>
