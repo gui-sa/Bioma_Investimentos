@@ -5,7 +5,7 @@ import { BellSimple } from "phosphor-react";
 const CircleIconBell = ()=> {
     return (
     <div className= {styles.CircleIconBell}>
-        <BellSimple size={"3vh"} color="#fff" weight="fill" rotate={180}/>
+        <BellSimple size={"2.5vh"} color="#fff" weight="fill" rotate={180}/>
     </div>
   );
 };

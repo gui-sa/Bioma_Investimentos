@@ -5,7 +5,7 @@ import { User } from "phosphor-react";
 const CircleIconUser = ()=> {
     return (
     <div className= {styles.CircleIconUser}>
-        <User size={"3vh"} color="#fff" weight="fill" rotate={180}/>
+        <User size={"2.5vh"} color="#fff" weight="fill" rotate={180}/>
     </div>
   );
 };

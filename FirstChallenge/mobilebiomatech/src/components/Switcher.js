@@ -1,14 +1,14 @@
 import React from 'react'
 import styles from './Switcher.module.css'
 
-function Switcher() {
+function Switcher({onChange}) {
     return (
-        <div>
-            <input type="checkbox" className={styles.toggle_input} name="mode" />
+        <>
+            <input type="checkbox" className={styles.toggle_input} name="mode" onChange={onChange}/>
             <div className={styles.slider}>
                 <div className={styles.roller}></div>
             </div>
-        </div>
+        </>
     );
 };
 

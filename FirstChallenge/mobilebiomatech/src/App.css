@@ -5,7 +5,6 @@ body,html {
     overflow: hidden;
     width : 100%;
     font-family: sans-serif;
-    background-color : #f2f2f2;
 }
 
 nav{
@@ -23,10 +22,19 @@ h1 {
     padding:0;
     font-family:serif;
     font-size: 3vh;
-    color: #222423;
     text-shadow: 0 0 0.2vh #474747;
     text-align: center;
     display: block;
+}
+.container_light{
+    background-color : #f2f2f2;
+    color: #222423;
+}
+
+.container_dark{
+    background-color : #141414;
+    color: #fff;
+
 }
 
 .profileHeader{
@@ -65,7 +73,6 @@ h1 {
     font-size: 2vh;
     font-style : normal;
     font-weight:1000;
-    color: #222423;
     text-align: center;
     display: block;
 }
@@ -83,14 +90,25 @@ h1 {
     color: #9f9f9f;
     text-align: center;
 }
-.settings{
-    height: 60vh;
-    weight:100%;
+
+.container_settings_light{
     border-radius: 5vh 5vh 0 0 ;
     box-shadow: 0 0 3vh #dedede;
     background-color: #fff;
-    margin: 0;
+}
+
+.container_settings_dark{
+    border-radius: 5vh 5vh 0 0 ;
+    box-shadow: 0 0 3vh #353535;
+    background-color: #111111;
     border: transparent;
+}
+.settings{
+    border: transparent;
+    font-size:2.5vh;
+    height: 60vh;
+    weight:100%;
+    margin: 0;
     padding : 0;
     position:relative;
 }
@@ -109,17 +127,15 @@ h1 {
     align-items:center;
 
 }
-#darkmode{
-    position:absolute;
-    top: 10vh;    
-}
+
 .switch{
-    font-size:2.5vh;
     margin: 0 0 0 3vh;
     display:flex;
     flex-flow: row wrap;
     justify-content:flex-start;
     align-items: baseline;
+    position:absolute;
+    top: 10vh;   
 }
 
 .switch span{
@@ -129,9 +145,116 @@ h1 {
 
 .switch .switcher{
     position:absolute;
-    left:80vw;
+    left:75vw;
     bottom: -1vh;
 }
 
+.notifications{
+    margin: 0 0 0 3vh;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:flex-start;
+    align-items: baseline;
+    position:absolute;
+    top: 16vh;  
+}
 
-  
+.notifications span{
+    padding: 0 0 0 2vh;
+}
+
+.caret{
+    position:absolute;
+    left:81vw;
+    bottom: -1.5vh;
+}
+
+.notifications .caret{
+    color:#d8d8d8;
+    font-weight:bold;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:flex-end;
+    align-items:center;
+    left:70vw;
+    bottom: 0vh;
+
+
+}
+
+.privacy{
+    margin: 0 0 0 3vh;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:flex-start;
+    align-items: baseline;
+    position:absolute;
+    top: 24vh;  
+}
+
+.privacy span{
+    padding: 0 0 0 2vh;
+}
+
+.security{
+    margin: 0 0 0 3vh;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:flex-start;
+    align-items: baseline;
+    position:absolute;
+    top: 30vh;  
+}
+
+.security span{
+    padding: 0 0 0 2vh;
+}
+
+.account{
+    margin: 0 0 0 3vh;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:flex-start;
+    align-items: baseline;
+    position:absolute;
+    top: 36vh;  
+}
+
+.account span{
+    padding: 0 0 0 2vh;
+}
+
+.help{
+    margin: 0 0 0 2.5vh;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:flex-start;
+    align-items: center;
+    position:absolute;
+    top: 41vh;  
+}
+
+.help span{
+    padding: 0 0 0 2vh;
+}
+
+.about{
+    margin: 0 0 0 2.5vh;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:flex-start;
+    align-items: center;
+    position:absolute;
+    top: 47vh;  
+}
+
+.about span{
+    padding: 0 0 0 2vh;
+}
+
+.icon_container{
+    weight:4vh;
+    height:4vh;
+    border-radius:50%;
+    overflow:hidden;
+}
