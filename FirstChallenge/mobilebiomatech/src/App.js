@@ -33,7 +33,7 @@ function App() {
       </header>
       <aside className='settings'>
         <h2>Settings</h2>
-        <div>
+        <div id="darkmode">
           <label className="switch">
               <CircleIconMoon/>
               <span>Dark Mode</span>
