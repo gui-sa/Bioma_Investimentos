@@ -129,13 +129,14 @@ h1 {
 }
 
 .switch{
+    width:100vw;
     margin: 0 0 0 3vh;
     display:flex;
     flex-flow: row wrap;
     justify-content:flex-start;
     align-items: baseline;
     position:absolute;
-    top: 10vh;   
+    top: 11vh;   
 }
 
 .switch span{
@@ -145,18 +146,19 @@ h1 {
 
 .switch .switcher{
     position:absolute;
-    left:75vw;
+    right:15vw;
     bottom: -1vh;
 }
 
 .notifications{
     margin: 0 0 0 3vh;
+    width:100vw;
     display:flex;
     flex-flow: row wrap;
     justify-content:flex-start;
     align-items: baseline;
     position:absolute;
-    top: 16vh;  
+    top: 19vh;  
 }
 
 .notifications span{
@@ -165,7 +167,7 @@ h1 {
 
 .caret{
     position:absolute;
-    left:81vw;
+    right:15vw;
     bottom: -1.5vh;
 }
 
@@ -176,20 +178,21 @@ h1 {
     flex-flow: row nowrap;
     justify-content:flex-end;
     align-items:center;
-    left:70vw;
     bottom: 0vh;
-
 
 }
 
+
+
 .privacy{
+    width:100vw;
     margin: 0 0 0 3vh;
     display:flex;
     flex-flow: row wrap;
     justify-content:flex-start;
     align-items: baseline;
     position:absolute;
-    top: 24vh;  
+    top: 25vh;  
 }
 
 .privacy span{
@@ -197,13 +200,14 @@ h1 {
 }
 
 .security{
+    width:100vw;
     margin: 0 0 0 3vh;
     display:flex;
     flex-flow: row wrap;
     justify-content:flex-start;
     align-items: baseline;
     position:absolute;
-    top: 30vh;  
+    top: 31vh;  
 }
 
 .security span{
@@ -211,13 +215,14 @@ h1 {
 }
 
 .account{
+    width:100vw;
     margin: 0 0 0 3vh;
     display:flex;
     flex-flow: row wrap;
     justify-content:flex-start;
     align-items: baseline;
     position:absolute;
-    top: 36vh;  
+    top: 40vh;  
 }
 
 .account span{
@@ -225,13 +230,14 @@ h1 {
 }
 
 .help{
-    margin: 0 0 0 2.5vh;
+    width:100vw;
+    margin: 0 0 0 3vh;
     display:flex;
     flex-flow: row wrap;
     justify-content:flex-start;
     align-items: center;
     position:absolute;
-    top: 41vh;  
+    top: 46vh;  
 }
 
 .help span{
@@ -239,22 +245,17 @@ h1 {
 }
 
 .about{
-    margin: 0 0 0 2.5vh;
+    width:100vw;
+    margin: 0 0 0 3vh;
     display:flex;
     flex-flow: row wrap;
     justify-content:flex-start;
     align-items: center;
     position:absolute;
-    top: 47vh;  
+    top: 52vh;  
 }
 
 .about span{
     padding: 0 0 0 2vh;
 }
 
-.icon_container{
-    weight:4vh;
-    height:4vh;
-    border-radius:50%;
-    overflow:hidden;
-}

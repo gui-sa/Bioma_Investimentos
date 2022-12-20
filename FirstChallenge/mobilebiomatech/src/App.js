@@ -1,4 +1,4 @@
-import { CaretRight, CaretLeft, MapPin, Question, Info } from "phosphor-react";
+import { CaretRight, CaretLeft, MapPin} from "phosphor-react";
 import './App.css';
 import BigButton from './components/BigButton';
 import CircleIconMoon from "./components/CircleIconMoon";
@@ -8,6 +8,8 @@ import CircleIconShell from "./components/CircleIconShell";
 import CircleIconUser from "./components/CircleIconUser";
 import React, { useState } from 'react';
 import Switcher from "./components/Switcher";
+import CircleIconHelp from "./components/CircleIconHelp";
+import CircleIconInfo from "./components/CircleIconInfo";
 
 function App() {
 
@@ -75,17 +77,17 @@ function App() {
             </label>
 
             <label className="help">
-              <Question size={"5.15vh"} color="#3cca9e" weight="fill" />
+              <CircleIconHelp/>
               <span>Help</span>
               <div className="caret"><CaretRight size={"3vh"} color="#d8d8d8" weight="bold"/></div>
             </label>
 
             <label className="about">
-              <Info size={"5.15vh"} color="#3cca9e" weight="fill" />
+              <CircleIconInfo/>
               <span>About</span>
               <div className="caret"><CaretRight size={"3vh"} color="#d8d8d8" weight="bold"/></div>
             </label>
-
+            
 
           </fieldset>
         </div>
