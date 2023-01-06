@@ -3,8 +3,8 @@
 Olá! \
 Este repositório contém a resolução de dois desafios proposto por **Bioma Investimentos**!
 
-Veja-me como um desenvolvedor completo que pode assumir qualquer área necessária pelo time. \
-O que eu não sei: corro atrás! \
+Veja-me como um desenvolvedor completo que pode assumir qualquer área necessária pelo time e aprender o que for necessário. \
+<br>
 Aceito feedbacks no email guime.sa9@gmail.com
 
 
