@@ -1,14 +1,14 @@
 ## Comparação entre o desenvolvido e o solicitado:
 
 ### LightMode:
-![](https://github.com/gui-sa/Bioma_Investimentos/tree/main/FirstChallenge/LightMode.png)
+![](https://github.com/gui-sa/Bioma_Investimentos/blob/main/FirstChallenge/LightMode.png)
 
 ### DarkMode:
-![](https://github.com/gui-sa/Bioma_Investimentos/tree/main/FirstChallenge/DarkMode.png)
+![](https://github.com/gui-sa/Bioma_Investimentos/blob/main/FirstChallenge/DarkMode.png)
 
 
 ## Mudando do Light para o Dark Mode:
-![](https://github.com/gui-sa/Bioma_Investimentos/tree/main/FirstChallenge/Preview.gif)
+![](https://github.com/gui-sa/Bioma_Investimentos/blob/main/FirstChallenge/Preview.gif)
 
 ## How to run:
 ```
